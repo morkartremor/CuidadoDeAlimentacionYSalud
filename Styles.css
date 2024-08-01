@@ -1,0 +1,93 @@
+body {
+    font-family: 'Comic Neue', serif;
+    background-color: #7acff7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    height: auto;
+    background-color: rgb(52, 140, 255);
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+
+.indice {
+    display: inline-block;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.indice li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.indice li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    background-color: #1378fc;
+    padding: 3px;
+}
+
+.indice li a:hover {
+    cursor: pointer;
+    color: #ffdd57;
+}
+
+/* Section */
+.section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Images */
+.CuidadoImg {
+    float: right;
+    width: 300px;
+    margin: 0 20px 20px 20px;
+}
+
+.NutricionImg {
+    display: block;
+    margin: 20px auto 0;
+    width: 300px;
+}
+
+.EjercicioImg {
+    float: left;
+    width: 300px;
+    margin: 0 20px 20px 20px;
+}
+
+.BeneficiosImg {
+    display: block;
+    margin: 20px auto 0;
+    width: 300px;
+}
+
+.ConclusionImg {
+    display: block;
+    margin: 20px auto 0;
+    width: 300px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer {
+    text-align: right;
+    display: block;
+    background-color: rgb(52, 140, 255);
+}
